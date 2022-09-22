@@ -3,7 +3,8 @@
 * An optional title and an optional Description
 */
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text, View, useColorScheme} from 'react-native';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 import styles from './styles';
 
 const Section = ({children, title}) => {

@@ -5,18 +5,12 @@
  * @format
  * @flow strict-local
  */
-
-import React from 'react';
 import Node from 'react';
-import Section from 'Components/Section';
+import Section from './Components/Section/content';
+import Button from './Components/Button/content';
 import {
   SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
   useColorScheme,
-  View,
 } from 'react-native';
 
 import {Colors} from 'react-native/Libraries/NewAppScreen';
@@ -35,6 +29,7 @@ const App = () => {
         title= 'To Do List:'
         children='Hopefully with authentication and backend'>
       </Section>
+      <Button content= {'Hello'}/>
     </SafeAreaView>
   );
 };

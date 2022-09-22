@@ -5,9 +5,10 @@ const styles = StyleSheet.create({
     alignItems:'center',
     marginTop: 32,
     paddingHorizontal: 24,
+    paddingBottom: 14,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 34,
     fontWeight: '600',
   },
   sectionDescription: {
