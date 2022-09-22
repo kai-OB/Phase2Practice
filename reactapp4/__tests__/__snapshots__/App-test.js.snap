@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly part2 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "backgroundColor": "#F3F3F3",
+    }
+  }
+>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    style={
+      Object {
+        "backgroundColor": "#F3F3F3",
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Array [
+            Object {
+              "paddingBottom": 40,
+              "paddingHorizontal": 32,
+              "paddingTop": 96,
+            },
+            Object {
+              "backgroundColor": "#F3F3F3",
+            },
+          ]
+        }
+      >
+        <Image
+          accessibilityRole="image"
+          source={
+            Object {
+              "testUri": "../Libraries/NewAppScreen/components/logo.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": undefined,
+                "width": undefined,
+              },
+              Object {
+                "marginBottom": -192,
+                "marginLeft": -128,
+                "opacity": 0.2,
+                "overflow": "visible",
+                "resizeMode": "cover",
+              },
+            ]
+          }
+          testID="new-app-screen-header"
+        />
+        <Text
+          style={
+            Array [
+              Object {
+                "fontSize": 40,
+                "fontWeight": "700",
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#000",
+              },
+            ]
+          }
+        >
+          Welcome to
+          
+
+          React Native
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "marginTop": 32,
+              "paddingHorizontal": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 24,
+                  "fontWeight": "600",
+                },
+                Object {
+                  "color": "#000",
+                },
+              ]
+            }
+          >
+            Step One
+          </Text>
+          <Text
+            style={
+              Array [
+                Object {
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "marginTop": 8,
+                },
+                Object {
+                  "color": "#444",
+                },
+              ]
+            }
+          >
+            Edit 
+            <Text
+              style={
+                Object {
+                  "fontWeight": "700",
+                }
+              }
+            >
+              App.js
+            </Text>
+             to change this screen and then come back to see your edits.
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
